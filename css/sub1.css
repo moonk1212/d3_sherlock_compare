@@ -1,0 +1,94 @@
+﻿/*전체*/
+* {
+  /*폰트체*/
+  font-family: 'Nanum Gothic', sans-serif;
+  /*폰트 굵게*/
+  font-weight: bold;
+}
+
+/*링크*/
+a {
+  /* 링크 밑줄 제거*/
+  text-decoration: none;
+  /*폰트색상 파란색 -> 검정색*/
+  color: black;
+}
+
+
+
+/* 헤더 */
+.header {
+  /*스크롤해도 밀리지 않고, 고정되도록함*/
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 7%;
+  background-color: white;
+  /*기존 화면보다 앞에 위치하도록 함*/
+  z-index: 1;
+}
+/* 로고 */
+.logo {
+  float: left;
+  width: 5%;
+  margin-left: 20px;
+}
+/* 메뉴 */
+.menu {
+  text-align: center;
+  float: right;
+  margin-right: 3%;
+  font-size: 0.8em;
+}
+/*커서를 메뉴에 올렸을 때 링크걸린 폰트 설정*/
+.menu:hover>a>h3{
+  /*폰트 회색*/
+  color: gray;
+}
+
+
+
+
+.container {
+  width: 70%;
+  margin-left : 15%;
+  text-align: center;
+}
+
+.content_main{
+  /*Black Han Sans*/
+  text-align: center;
+  padding : 40px;
+  line-height: 1.5;
+}
+
+.content {
+  float: left;
+  width: 40%;
+  padding:  20px;
+  margin: 3% 0 0 3%;
+  border: 1px solid #bcbcbc;
+  text-align: center;
+  /*줄간격*/
+  line-height: 1.5;
+  overflow: hidden;
+}
+
+.container_text {
+  font-size: 15px;
+  width: 70%;
+  margin-left : 15%;
+  text-align: center;
+}
+
+
+.footer {
+  clear: both;
+  padding: 20px;
+}
+
+
+.stick{
+  padding-top: 700px;
+}
